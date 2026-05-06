@@ -1,14 +1,14 @@
 function Home() {
     return (
-<>
-<div
+        <>
+            <div
                 style={{
-                    backgroundColor: "#312e81", 
+                    backgroundColor: "#000000", 
                     display: "flex",
                     justifyContent: "center"
                 }}
->
-<div
+            >
+                <div
                     style={{
                         display: "grid",
                         gridTemplateColumns: "1fr 1fr", 
@@ -16,8 +16,8 @@ function Home() {
                         width: "100%",
                         maxWidth: "1280px", 
                     }}
->
-<div
+                >
+                    <div
                         style={{
                             display: "flex",
                             flexDirection: "column",
@@ -27,62 +27,62 @@ function Home() {
                             paddingTop: "1rem", 
                             paddingBottom: "1rem"
                         }}
->
-<h2
+                    >
+                        <h2
                             style={{
                                 fontSize: "3rem", 
                                 fontWeight: "bold"
                             }}
->
+                        >
                             Seja Bem Vinde!
-</h2>
- 
+                        </h2>
+
                         <p
                             style={{
                                 fontSize: "1.25rem" 
                             }}
->
+                        >
                             Expresse aqui seus pensamentos e opiniões
-</p>
- 
+                        </p>
+
                         <div
                             style={{
                                 display: "flex",
                                 justifyContent: "space-around",
                                 gap: "1rem"
                             }}
->
-<div
+                        >
+                            <div
                                 style={{
                                     borderRadius: "0.5rem",
                                     color: "white",
                                     border: "2px solid white",
                                     padding: "0.5rem 1rem"
                                 }}
->
+                            >
                                 Nova Postagem
-</div>
-</div>
-</div>
- 
+                            </div>
+                        </div>
+                    </div>
+
                     <div
                         style={{
                             display: "flex",
                             justifyContent: "center"
                         }}
->
-<img
+                    >
+                        <img
                             src="https://i.imgur.com/fyfri1v.png"
                             alt="Imagem Página Home"
                             style={{
                                 width: "66%"
                             }}
                         />
-</div>
-</div>
-</div>
-</>
+                    </div>
+                </div>
+            </div>
+        </>
     )
 }
- 
+
 export default Home
